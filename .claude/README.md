@@ -15,7 +15,13 @@ This directory contains specialized AI agents and reusable skills for building a
 │   ├── vector-engineer.md       # Qdrant vector database operations
 │   ├── translator.md            # Urdu translation services
 │   ├── personalization-expert.md # Content personalization
-│   └── qa-specialist.md         # Testing & quality assurance
+│   ├── qa-specialist.md         # Testing & quality assurance
+│   ├── chunking-strategist.md   # Content segmentation for RAG
+│   ├── data-pipeline-engineer.md # ETL pipeline implementation
+│   ├── deployment-specialist.md # CI/CD and deployment
+│   ├── docusaurus-architect.md  # Docusaurus structure & configuration
+│   ├── performance-optimizer.md # Performance analysis & optimization
+│   └── security-auditor.md      # Security review & auditing
 │
 ├── skills/                      # Reusable skills
 │   ├── technical-writing.md     # Educational content patterns
@@ -23,7 +29,25 @@ This directory contains specialized AI agents and reusable skills for building a
 │   ├── vector-embedding.md      # Embedding generation & optimization
 │   ├── smart-chunking.md        # Content chunking strategies
 │   ├── multilingual-translation.md # Translation with context preservation
-│   └── content-adaptation.md    # Personalization algorithms
+│   ├── content-adaptation.md    # Personalization algorithms
+│   ├── automation.md            # CI/CD and workflow automation
+│   ├── caching-strategies.md    # Caching patterns & optimization
+│   ├── compliance.md            # Security compliance & standards
+│   ├── data-validation.md       # Input validation & sanitization
+│   ├── docker.md                # Container management
+│   ├── docusaurus-config.md     # Docusaurus configuration
+│   ├── etl-pipeline.md          # Data pipeline design
+│   ├── github-actions.md        # GitHub Actions workflows
+│   ├── lazy-loading.md          # Performance optimization techniques
+│   ├── mdx-authoring.md         # MDX content creation
+│   ├── penetration-testing.md   # Security testing
+│   ├── performance-analysis.md  # Performance profiling
+│   ├── rag-optimization.md      # RAG system optimization
+│   ├── react-components.md      # React component development
+│   ├── security-review.md       # Code security review
+│   ├── semantic-analysis.md     # Content semantic analysis
+│   ├── serverless-deployment.md # Serverless deployment strategies
+│   └── text-processing.md       # Text processing & chunking
 │
 └── README.md                    # This file
 ```
@@ -214,6 +238,130 @@ This directory contains specialized AI agents and reusable skills for building a
 
 ---
 
+### [Chunking Strategist Agent](agents/chunking-strategist.md)
+**Purpose**: Design optimal content segmentation strategies for RAG systems.
+
+**Key Responsibilities**:
+- Design chunking strategy for technical robotics content
+- Balance chunk size vs context preservation
+- Implement overlap strategy for continuity
+- Handle code blocks, diagrams, and mixed content
+- Create metadata enrichment pipeline
+- Optimize for retrieval accuracy
+
+**When to Use**:
+- "Design chunking strategy for technical content"
+- "Optimize content segmentation for RAG"
+- "Handle code blocks in chunking"
+
+**Skills**: text-processing, semantic-analysis, rag-optimization
+
+---
+
+### [Data Pipeline Engineer Agent](agents/data-pipeline-engineer.md)
+**Purpose**: Build ETL pipeline from Docusaurus content to Qdrant vector database.
+
+**Key Responsibilities**:
+- Extract markdown content from Docusaurus
+- Transform content with smart chunking
+- Generate embeddings and upload to Qdrant
+- Automate pipeline on content updates
+- Validate data quality and handle errors
+- Implement idempotent operations
+
+**When to Use**:
+- "Build ETL pipeline for content ingestion"
+- "Automate embedding generation and upload"
+- "Create data validation pipeline"
+
+**Skills**: etl-pipeline, data-validation, automation
+
+---
+
+### [Deployment Specialist Agent](agents/deployment-specialist.md)
+**Purpose**: CI/CD pipeline setup, environment management, and production deployment.
+
+**Key Responsibilities**:
+- Set up GitHub Actions workflows
+- Configure GitHub Pages deployment for frontend
+- Deploy backend to serverless platforms (Vercel/Railway)
+- Manage environment variables and secrets
+- Implement deployment best practices
+- Configure HTTPS and domain settings
+
+**When to Use**:
+- "Set up CI/CD pipeline"
+- "Deploy to production"
+- "Configure GitHub Pages deployment"
+- "Set up environment management"
+
+**Skills**: github-actions, docker, serverless-deployment
+
+---
+
+### [Docusaurus Architect Agent](agents/docusaurus-architect.md)
+**Purpose**: Expert in Docusaurus site structure, theming, plugins, and configuration.
+
+**Key Responsibilities**:
+- Design optimal site structure for technical textbook
+- Configure plugins (search, analytics, components)
+- Implement custom React components integration
+- Set up responsive theme with professional styling
+- Optimize build performance
+- Configure navigation and sidebar
+
+**When to Use**:
+- "Design Docusaurus site structure"
+- "Configure Docusaurus plugins"
+- "Optimize Docusaurus build performance"
+- "Customize Docusaurus theme"
+
+**Skills**: docusaurus-config, react-components, mdx-authoring
+
+---
+
+### [Performance Optimizer Agent](agents/performance-optimizer.md)
+**Purpose**: Optimize page load, API response times, and user experience.
+
+**Key Responsibilities**:
+- Optimize frontend performance (Lighthouse score >90)
+- Improve backend API response times (<3s p95)
+- Implement caching strategies (Redis, database-backed)
+- Optimize database queries and connections
+- Set up performance monitoring and alerts
+- Implement lazy loading and code splitting
+
+**When to Use**:
+- "Optimize page load speed"
+- "Improve API performance"
+- "Implement caching strategy"
+- "Set up performance monitoring"
+
+**Skills**: performance-analysis, caching-strategies, lazy-loading
+
+---
+
+### [Security Auditor Agent](agents/security-auditor.md)
+**Purpose**: Security review for authentication, API endpoints, and data handling.
+
+**Key Responsibilities**:
+- Audit API security (input validation, rate limiting, CORS)
+- Review authentication implementation (Better-auth)
+- Ensure data protection (encryption, secure storage)
+- Check dependency security (npm/pip audit)
+- Conduct threat modeling (OWASP Top 10)
+- Provide security remediation recommendations
+
+**When to Use**:
+- "Audit application security"
+- "Review authentication security"
+- "Check for OWASP vulnerabilities"
+- "Validate API security"
+
+**Skills**: security-review, penetration-testing, compliance
+
+---
+
 ## 🛠️ Skills Overview
 
 ### [Technical Writing](skills/technical-writing.md)
@@ -356,6 +504,380 @@ personalized = selector.select_content_sections(
     profile=user_profile
 )
 ```
+
+---
+
+### [RAG Optimization](skills/rag-optimization.md)
+Optimize RAG system performance and accuracy.
+
+**Key Concepts**:
+- Fine-tune chunking strategies for better retrieval
+- Evaluate and improve embedding models
+- Implement re-ranking algorithms
+- Query expansion and reformulation
+- Monitor performance and identify bottlenecks
+
+**Usage Example**:
+```python
+# Evaluate chunking strategy
+evaluator = RAGEvaluator(test_queries, ground_truth)
+metrics = evaluator.evaluate_chunking(chunk_size=400, overlap=50)
+print(f"Precision: {metrics.precision}, Recall: {metrics.recall}")
+```
+
+---
+
+### [Text Processing](skills/text-processing.md)
+Text processing and content manipulation for RAG systems.
+
+**Key Concepts**:
+- Parse markdown and extract structure
+- Handle code blocks and special formatting
+- Extract metadata from frontmatter
+- Text normalization and cleaning
+- Token counting and management
+
+**Usage Example**:
+```python
+processor = TextProcessor()
+parsed = processor.parse_markdown(content)
+# Returns: headers, code_blocks, text_sections, metadata
+```
+
+---
+
+### [Semantic Analysis](skills/semantic-analysis.md)
+Analyze content semantics for intelligent chunking.
+
+**Key Concepts**:
+- Identify semantic boundaries in text
+- Extract key concepts and entities
+- Determine section importance
+- Analyze concept relationships
+- Generate semantic metadata
+
+**Usage Example**:
+```python
+analyzer = SemanticAnalyzer()
+boundaries = analyzer.detect_boundaries(content)
+concepts = analyzer.extract_concepts(section)
+```
+
+---
+
+### [React Components](skills/react-components.md)
+React component development for Docusaurus.
+
+**Key Concepts**:
+- Create custom React components
+- Follow Docusaurus component patterns
+- Props and state management
+- Component composition
+- Integration with MDX
+
+**Usage Example**:
+```jsx
+// src/components/ChatWidget.js
+export default function ChatWidget({ initialOpen = false }) {
+  const [isOpen, setIsOpen] = useState(initialOpen);
+  return (
+    <div className="chat-widget">
+      {/* Component implementation */}
+    </div>
+  );
+}
+```
+
+---
+
+### [MDX Authoring](skills/mdx-authoring.md)
+Create and structure MDX content for Docusaurus.
+
+**Key Concepts**:
+- MDX syntax and component embedding
+- Frontmatter configuration
+- Custom component usage
+- Interactive code examples
+- Content organization
+
+**Usage Example**:
+```mdx
+---
+title: Forward Kinematics
+sidebar_position: 2
+---
+
+import CodeDemo from '@site/src/components/CodeDemo';
+
+## Introduction
+<CodeDemo language="python" live>
+  # Interactive code example
+</CodeDemo>
+```
+
+---
+
+### [Docusaurus Config](skills/docusaurus-config.md)
+Configure and optimize Docusaurus sites.
+
+**Key Concepts**:
+- Site configuration (docusaurus.config.js)
+- Plugin configuration
+- Theme customization
+- Navigation and sidebar setup
+- Build optimization
+
+**Usage Example**:
+```javascript
+module.exports = {
+  title: 'Physical AI Textbook',
+  plugins: [
+    ['@docusaurus/plugin-content-docs', {
+      sidebarPath: require.resolve('./sidebars.js'),
+    }]
+  ]
+};
+```
+
+---
+
+### [Performance Analysis](skills/performance-analysis.md)
+Profile and analyze application performance.
+
+**Key Concepts**:
+- Lighthouse auditing
+- API response time profiling
+- Database query analysis
+- Bundle size optimization
+- Performance metrics tracking
+
+**Usage Example**:
+```python
+# Profile API endpoint
+@profiler.track("chat_endpoint")
+async def chat_query(query: str):
+    # Function implementation
+    pass
+```
+
+---
+
+### [Caching Strategies](skills/caching-strategies.md)
+Implement efficient caching patterns.
+
+**Key Concepts**:
+- Cache-aside pattern
+- Redis integration
+- Database-backed caching
+- Cache invalidation strategies
+- TTL management
+
+**Usage Example**:
+```python
+@cache(ttl=3600, key_prefix="translation")
+async def translate_content(text: str, target_lang: str):
+    return await translator.translate(text, target_lang)
+```
+
+---
+
+### [Lazy Loading](skills/lazy-loading.md)
+Optimize resource loading for performance.
+
+**Key Concepts**:
+- Component lazy loading
+- Image lazy loading
+- Route-based code splitting
+- Dynamic imports
+- Intersection Observer
+
+**Usage Example**:
+```jsx
+const ChatWidget = lazy(() => import('./components/ChatWidget'));
+
+function App() {
+  return (
+    <Suspense fallback={<Loading />}>
+      <ChatWidget />
+    </Suspense>
+  );
+}
+```
+
+---
+
+### [Security Review](skills/security-review.md)
+Code security analysis and vulnerability assessment.
+
+**Key Concepts**:
+- OWASP Top 10 vulnerabilities
+- Input validation and sanitization
+- SQL injection prevention
+- XSS protection
+- Authentication security
+
+**Usage Example**:
+```python
+# Input validation
+from pydantic import BaseModel, validator
+
+class QueryInput(BaseModel):
+    query: str
+
+    @validator('query')
+    def validate_query(cls, v):
+        if len(v) > 1000:
+            raise ValueError('Query too long')
+        return sanitize_input(v)
+```
+
+---
+
+### [Penetration Testing](skills/penetration-testing.md)
+Security testing and vulnerability discovery.
+
+**Key Concepts**:
+- API endpoint testing
+- Authentication bypass testing
+- Rate limiting validation
+- CORS configuration testing
+- Dependency vulnerability scanning
+
+**Usage Example**:
+```bash
+# Run security audit
+npm audit
+pip-audit
+# Test rate limiting
+ab -n 1000 -c 10 https://api.example.com/chat
+```
+
+---
+
+### [Compliance](skills/compliance.md)
+Ensure security compliance and standards adherence.
+
+**Key Concepts**:
+- GDPR compliance
+- Data privacy requirements
+- API security standards
+- Access control policies
+- Audit logging
+
+---
+
+### [GitHub Actions](skills/github-actions.md)
+Automate workflows with GitHub Actions.
+
+**Key Concepts**:
+- CI/CD pipeline setup
+- Automated testing
+- Deployment workflows
+- Environment management
+- Secrets handling
+
+**Usage Example**:
+```yaml
+name: Test and Deploy
+on: [push]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: npm test
+```
+
+---
+
+### [Docker](skills/docker.md)
+Container management and optimization.
+
+**Key Concepts**:
+- Dockerfile creation
+- Image optimization
+- Docker Compose
+- Multi-stage builds
+- Container networking
+
+**Usage Example**:
+```dockerfile
+FROM python:3.11-slim
+WORKDIR /app
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+COPY . .
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0"]
+```
+
+---
+
+### [Serverless Deployment](skills/serverless-deployment.md)
+Deploy applications to serverless platforms.
+
+**Key Concepts**:
+- Vercel deployment
+- Railway.app deployment
+- Environment configuration
+- Serverless function optimization
+- Cold start mitigation
+
+---
+
+### [ETL Pipeline](skills/etl-pipeline.md)
+Design and implement data pipelines.
+
+**Key Concepts**:
+- Extract from multiple sources
+- Transform with validation
+- Load to vector database
+- Error handling and retry logic
+- Idempotent operations
+
+**Usage Example**:
+```python
+def etl_pipeline():
+    # Extract
+    content = extract_from_docusaurus()
+    # Transform
+    chunks = chunk_and_enrich(content)
+    # Load
+    upload_to_qdrant(chunks)
+```
+
+---
+
+### [Data Validation](skills/data-validation.md)
+Validate and sanitize input data.
+
+**Key Concepts**:
+- Pydantic models
+- Input sanitization
+- Type validation
+- Business rule validation
+- Error handling
+
+**Usage Example**:
+```python
+from pydantic import BaseModel, Field
+
+class ChunkData(BaseModel):
+    text: str = Field(..., min_length=10, max_length=5000)
+    chapter: str
+    metadata: dict
+```
+
+---
+
+### [Automation](skills/automation.md)
+Automate repetitive tasks and workflows.
+
+**Key Concepts**:
+- Script automation
+- Scheduled jobs
+- Event-driven automation
+- CI/CD integration
+- Monitoring and alerting
 
 ---
 
@@ -506,6 +1028,12 @@ The agent will use:
 | Translator | multilingual-translation | api-design, content-adaptation |
 | Personalization | content-adaptation | technical-writing, api-design |
 | QA Specialist | api-design, vector-embedding | content-adaptation |
+| Chunking Strategist | text-processing, semantic-analysis | rag-optimization |
+| Data Pipeline Engineer | etl-pipeline, data-validation | automation |
+| Deployment Specialist | github-actions, docker | serverless-deployment |
+| Docusaurus Architect | docusaurus-config, react-components | mdx-authoring |
+| Performance Optimizer | performance-analysis, caching-strategies | lazy-loading |
+| Security Auditor | security-review, penetration-testing | compliance |
 
 ---
 
