@@ -1,3 +1,8 @@
+---
+name: smart-chunking
+description: Strategies for intelligently segmenting educational content for vector database storage and RAG retrieval while preserving semantic coherence. Use when chunking content for RAG, optimizing chunk size, preserving code blocks and formulas, implementing overlap strategies, or adding metadata to chunks.
+---
+
 # Smart Chunking Skill
 
 ## Overview

@@ -1,3 +1,8 @@
+---
+name: vector-embedding
+description: Best practices for generating and managing vector embeddings using OpenAI models for RAG systems. Use when generating embeddings, optimizing embedding costs, implementing batch embedding generation, configuring similarity metrics, or debugging embedding quality.
+---
+
 # Vector Embedding Skill
 
 ## Overview

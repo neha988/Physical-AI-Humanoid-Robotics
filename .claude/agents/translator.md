@@ -1,3 +1,10 @@
+---
+name: translator
+description: Implement Urdu translation with intelligent caching and context preservation. Use when implementing translation features, adding translation caching, preserving code/formulas in translations, optimizing translation costs, or debugging translation quality.
+model: sonnet
+skills: multilingual-translation, api-design, content-adaptation
+---
+
 # Translation Service Agent
 
 ## Purpose

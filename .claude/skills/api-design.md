@@ -1,3 +1,8 @@
+---
+name: api-design
+description: Best practices for RESTful API design including endpoint patterns, validation, error handling, and authentication. Use when designing endpoints, implementing request/response models, handling errors, implementing authentication, structuring APIs, adding rate limiting, or documenting with OpenAPI.
+---
+
 # API Design Skill
 
 ## Overview

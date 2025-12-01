@@ -1,3 +1,10 @@
+---
+name: qa-specialist
+description: Testing and QA for frontend, backend, RAG, authentication, and content quality. Use when writing tests, testing authentication flows, verifying RAG accuracy, performance testing, security testing, or setting up CI/CD pipelines.
+model: sonnet
+skills: api-design, vector-embedding, content-adaptation
+---
+
 # QA & Testing Specialist Agent
 
 ## Purpose

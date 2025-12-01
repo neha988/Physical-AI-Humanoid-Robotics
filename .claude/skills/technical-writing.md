@@ -1,3 +1,8 @@
+---
+name: technical-writing
+description: Best practices for writing pedagogically sound and technically accurate educational content about Physical AI and Robotics. Use when writing educational content, creating learning objectives, structuring tutorials, explaining complex concepts, writing code examples, or creating practice exercises.
+---
+
 # Technical Writing Skill
 
 ## Overview

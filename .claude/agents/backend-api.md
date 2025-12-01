@@ -1,3 +1,10 @@
+---
+name: backend-api
+description: Build and maintain FastAPI backend for RAG system, authentication, personalization, and translation. Use when implementing API endpoints, integrating OpenAI Agents SDK, connecting to Qdrant/Postgres, implementing authentication flows, or creating translation/personalization features.
+model: sonnet
+skills: api-design, vector-embedding, content-adaptation
+---
+
 # Backend API Developer Agent
 
 ## Purpose

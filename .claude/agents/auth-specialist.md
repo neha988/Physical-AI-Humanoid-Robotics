@@ -1,3 +1,10 @@
+---
+name: auth-specialist
+description: Implement secure authentication using Better-auth and Neon Postgres. Use when setting up authentication, implementing signup/login, adding password reset, securing API endpoints, debugging auth issues, or managing user profiles.
+model: sonnet
+skills: api-design, content-adaptation
+---
+
 # Authentication Specialist Agent
 
 ## Purpose

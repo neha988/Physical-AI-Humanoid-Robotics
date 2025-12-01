@@ -1,3 +1,8 @@
+---
+name: content-adaptation
+description: Patterns for personalizing educational content based on user background, learning style, and progress. Use when implementing personalization algorithms, creating content variants, adapting difficulty levels, building recommendation systems, or tracking user engagement.
+---
+
 # Content Adaptation Skill
 
 ## Overview

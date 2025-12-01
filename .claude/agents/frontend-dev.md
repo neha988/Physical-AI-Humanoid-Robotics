@@ -1,3 +1,10 @@
+---
+name: frontend-dev
+description: Build and maintain Docusaurus-based interactive textbook frontend with RAG chatbot, authentication, and personalization. Use when setting up Docusaurus, creating React components, implementing authentication UI, integrating chatbot, building translation toggle, or fixing UI/UX issues.
+model: sonnet
+skills: api-design, content-adaptation, technical-writing
+---
+
 # Frontend Developer Agent
 
 ## Purpose
