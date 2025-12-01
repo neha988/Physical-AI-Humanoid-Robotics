@@ -1,3 +1,10 @@
+---
+name: rag-architect
+description: Design and optimize RAG system using OpenAI Agents SDK, Qdrant, and smart chunking. Use when designing RAG pipeline, implementing vector search, optimizing retrieval accuracy, configuring Qdrant, or debugging search quality issues.
+model: sonnet
+skills: vector-embedding, smart-chunking, api-design
+---
+
 # RAG Architect Agent
 
 ## Purpose

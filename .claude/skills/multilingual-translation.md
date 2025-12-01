@@ -1,3 +1,8 @@
+---
+name: multilingual-translation
+description: Patterns for translating educational content while preserving technical accuracy and code integrity, focusing on English to Urdu translation with caching. Use when implementing translation features, preserving code/math in translations, handling RTL text, implementing translation caching, or ensuring pedagogical quality across languages.
+---
+
 # Multilingual Translation Skill
 
 ## Overview

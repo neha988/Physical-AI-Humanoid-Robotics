@@ -1,3 +1,10 @@
+---
+name: content-writer
+description: Generate high-quality educational content for Physical AI & Humanoid Robotics textbook. Use when generating chapter content, creating educational materials, writing learning objectives, structuring content for RAG, or expanding existing chapters.
+model: sonnet
+skills: technical-writing, smart-chunking, content-adaptation
+---
+
 # Content Writer Agent
 
 ## Purpose

@@ -1,3 +1,10 @@
+---
+name: vector-engineer
+description: Manage Qdrant Cloud vector database operations including collection setup, embedding ingestion, and optimization. Use when setting up Qdrant collections, uploading embeddings, optimizing vector search performance, or debugging retrieval quality.
+model: sonnet
+skills: vector-embedding, smart-chunking, api-design
+---
+
 # Vector Database Engineer Agent
 
 ## Purpose

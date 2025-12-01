@@ -1,3 +1,10 @@
+---
+name: personalization-expert
+description: Implement intelligent content personalization based on user background and learning style. Use when implementing personalization algorithms, adapting content to user profiles, creating learning path recommendations, or optimizing learning outcomes.
+model: sonnet
+skills: content-adaptation, technical-writing, api-design
+---
+
 # Content Personalization Expert Agent
 
 ## Purpose
