@@ -1,4 +1,4 @@
-
+---
 name: chunking-strategist
 description: Specialized in optimal content segmentation for RAG systems in technical documentation
 model: sonnet

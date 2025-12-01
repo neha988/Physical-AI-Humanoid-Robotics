@@ -1,4 +1,4 @@
-
+---
 name: performance-analysis
 description: Diagnoses performance bottlenecks and identifies optimization opportunities
 ---

@@ -1,4 +1,4 @@
-
+---
 name: performance-optimizer
 description: Optimize page load, API response times, and user experience
 model: sonnet

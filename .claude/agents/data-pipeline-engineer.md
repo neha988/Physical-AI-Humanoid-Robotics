@@ -1,4 +1,4 @@
-
+---
 name: data-pipeline-engineer
 description: Build ETL pipeline from Docusaurus content to Qdrant vector database
 model: sonnet

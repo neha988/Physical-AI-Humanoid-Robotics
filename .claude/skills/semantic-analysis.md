@@ -1,4 +1,4 @@
-
+---
 name: semantic-analysis
 description: Analyzes text for meaning, entities, and relationships to enhance RAG retrieval
 ---

@@ -1,4 +1,4 @@
-
+---
 name: caching-strategies
 description: Implements and optimizes caching mechanisms for improved performance
 ---

@@ -1,4 +1,4 @@
-
+---
 name: github-actions
 description: Configures and manages CI/CD pipelines using GitHub Actions
 ---

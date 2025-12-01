@@ -1,4 +1,4 @@
-
+---
 name: lazy-loading
 description: Implements lazy loading for frontend components and images to reduce initial page load
 ---

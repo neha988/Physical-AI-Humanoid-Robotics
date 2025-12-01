@@ -1,4 +1,4 @@
-
+---
 name: docusaurus-config
 description: Manages Docusaurus configuration, plugins, and theme settings
 ---

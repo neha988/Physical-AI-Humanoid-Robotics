@@ -1,4 +1,4 @@
-
+---
 name: docusaurus-architect
 description: Expert in Docusaurus site structure, theming, plugins, and GitHub Pages deployment
 model: sonnet

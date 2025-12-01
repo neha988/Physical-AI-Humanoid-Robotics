@@ -1,4 +1,4 @@
-
+---
 name: mdx-authoring
 description: Writes and edits content in MDX format for Docusaurus pages
 ---

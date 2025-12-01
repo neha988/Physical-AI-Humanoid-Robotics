@@ -1,4 +1,4 @@
-
+---
 name: react-components
 description: Creates, modifies, and integrates React components within the Docusaurus frontend
 ---

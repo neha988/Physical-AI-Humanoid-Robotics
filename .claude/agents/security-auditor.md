@@ -1,4 +1,4 @@
-
+---
 name: security-auditor
 description: Security review for authentication, API endpoints, and data handling
 model: sonnet

@@ -1,4 +1,4 @@
-
+---
 name: automation
 description: Automates repetitive tasks and workflows
 ---

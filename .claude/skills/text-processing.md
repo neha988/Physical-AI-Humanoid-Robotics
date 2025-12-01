@@ -1,4 +1,4 @@
-
+---
 name: text-processing
 description: Performs advanced text extraction, cleaning, and normalization for RAG systems
 ---

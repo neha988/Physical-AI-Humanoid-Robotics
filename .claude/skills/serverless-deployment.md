@@ -1,4 +1,4 @@
-
+---
 name: serverless-deployment
 description: Deploys applications to serverless platforms like Vercel or AWS Lambda
 ---
